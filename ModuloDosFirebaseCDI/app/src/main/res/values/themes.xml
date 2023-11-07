@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ModuloDosFirebaseCDI" parent="Theme.ModuloDosFirebaseCDI.Base"/>
     <!-- Base application theme. -->
-    <style name="Theme.ModuloDosFirebaseCDI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.ModuloDosFirebaseCDI.Base" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/baseLight</item>
         <item name="colorPrimaryVariant">@color/lighterLight</item>
@@ -9,8 +10,25 @@
         <item name="colorSecondary">@color/baseGrey</item>
         <item name="colorSecondaryVariant">@color/lighterGrey</item>
         <item name="colorOnSecondary">@color/baseLight</item>
+        <!--Surface Colors-->
+        <item name="colorSurface">?attr/colorSecondary</item>
+        <item name="colorOnSurface">?attr/colorOnSecondary</item>
+        <!--Background App-->
+        <item name="android:colorBackground">?attr/colorPrimary</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/baseGrey</item>
+        <!--Shadow Setup-->
+        <item name="android:ambientShadowAlpha">0.7</item>
+        <item name="android:spotShadowAlpha">0.7</item>
+
+
         <!-- Customize your theme here. -->
+        <item name="toolbarStyle">@style/ModuloDosFirebaseCDI.Toolbar</item>
+    </style>
+
+    <style name="ModuloDosFirebaseCDI.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/baseGrey</item>
+        <item name="android:elevation">@dimen/shadow_elevation</item>
+
     </style>
 </resources>
