@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClassCDI</string>
+    <string name="hello_world">Hola Mundo</string>
+    <string name="test_bt">"Presioname para hacerlo "</string>
+</resources>

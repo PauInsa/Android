@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name" translatable="false">ClassCDI</string>
+    <string name="hello_world">Hello World</string>
+    <string name="next_screen_bt" translatable="false">Click Me To Change Screen !!!</string>
+    <string name="test_bt">Press Me To Make It</string>
+</resources>
